@@ -30,7 +30,7 @@ def parse_number(s):
         except ValueError:
             return s
 
-
+""" Run the program """
 first_in = input("Enter first number: ")
 second_in = input("Enter second number: ")
 a, b = parse_number(first_in), parse_number(second_in)
